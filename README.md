@@ -1,57 +1,150 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  </head>
-  <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
-    <div class="card" style="width: 18rem;">
-  <img src="https://youtu.be/1fTMekk7JDw?si=p6zqFth7OSwAmyAK" class="card-img-top" alt="https://youtu.be/1fTMekk7JDw?si=p6zqFth7OSwAmyAK">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
+<div align="center">
+
+# 🌐 index.html-jamol
+
+**Bootstrap 5 asosidagi oddiy veb-sahifa namunasi**
+**A simple web page demo built with Bootstrap 5**
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=github)](https://abduhalilovjamol7-afk.github.io/index.html-jamol/)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)
+
+[🇺🇿 O'zbekcha](#-ozbekcha) • [🇬🇧 English](#-english)
+
 </div>
-    <h1>mening portfoliom</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
-</html>
+
+---
+
+## 🇺🇿 O'zbekcha
+
+### 📖 Loyiha haqida
+
+**index.html-jamol** — bu [Bootstrap](https://getbootstrap.com/) kutubxonasi yordamida yaratilgan oddiy bir sahifali (single-page) veb-sahifa. Loyiha Bootstrap komponentlarini amalda o'rganish va **GitHub Pages** orqali saytni bepul joylashtirishni mashq qilish uchun mo'ljallangan.
+
+🔗 **Jonli demo:** https://abduhalilovjamol7-afk.github.io/index.html-jamol/
+
+### ✨ Imkoniyatlar
+
+- 🧭 **Navbar** — Home, Link va ochiladigan menyu (Dropdown) bilan
+- 🔍 **Qidiruv** formasi
+- 📝 **Kirish formasi** — email, parol, "Check me out" belgisi va yuborish tugmasi
+- 📱 **Moslashuvchan (responsive)** dizayn — telefon, planshet va kompyuterda to'g'ri ko'rinadi
+- 🚀 **GitHub Pages** orqali joylashtirilgan
+
+### 🛠 Texnologiyalar
+
+| Texnologiya | Vazifasi |
+|-------------|----------|
+| HTML5 | Sahifa tuzilmasi |
+| Bootstrap 5 | Dizayn va komponentlar |
+| GitHub Pages | Hosting (joylashtirish) |
+
+### 📂 Loyiha tuzilmasi
+
+```
+index.html-jamol/
+├── index.html      # Asosiy sahifa
+└── README.md       # Loyiha tavsifi
+```
+
+### ⚙️ O'rnatish va ishga tushirish
+
+1. Repozitoriyani klonlang:
+   ```bash
+   git clone https://github.com/abduhalilovjamol7-afk/index.html-jamol.git
+   ```
+2. Papkaga kiring:
+   ```bash
+   cd index.html-jamol
+   ```
+3. `index.html` faylini brauzerda oching (ustiga ikki marta bosing) yoki mahalliy server ishga tushiring:
+   ```bash
+   python -m http.server 8000
+   ```
+   So'ng brauzerda `http://localhost:8000` manziliga o'ting.
+
+### 🌍 GitHub Pages'da joylashtirish
+
+1. Repozitoriyning **Settings → Pages** bo'limiga o'ting.
+2. **Source** qismida `main` branch va `/ (root)` papkani tanlang.
+3. **Save** tugmasini bosing — bir necha daqiqadan so'ng sayt tayyor bo'ladi.
+
+### 🤝 Hissa qo'shish
+
+Takliflar va yaxshilashlar xush kelibsiz! `Fork` qiling, o'zgartirish kiriting va `Pull Request` yuboring.
+
+### 👤 Muallif
+
+**Jamol Abduhalilov** — [@abduhalilovjamol7-afk](https://github.com/abduhalilovjamol7-afk)
+
+---
+
+## 🇬🇧 English
+
+### 📖 About
+
+**index.html-jamol** is a simple single-page website built with [Bootstrap](https://getbootstrap.com/). The project is meant for practicing Bootstrap components and for learning how to host a static site for free with **GitHub Pages**.
+
+🔗 **Live demo:** https://abduhalilovjamol7-afk.github.io/index.html-jamol/
+
+### ✨ Features
+
+- 🧭 **Navbar** with Home, Link and a Dropdown menu
+- 🔍 **Search** form
+- 📝 **Login form** with email, password, a "Check me out" checkbox and a submit button
+- 📱 **Responsive** layout that works on phones, tablets and desktops
+- 🚀 Deployed with **GitHub Pages**
+
+### 🛠 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| HTML5 | Page structure |
+| Bootstrap 5 | Styling and components |
+| GitHub Pages | Hosting |
+
+### 📂 Project Structure
+
+```
+index.html-jamol/
+├── index.html      # Main page
+└── README.md       # Project description
+```
+
+### ⚙️ Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/abduhalilovjamol7-afk/index.html-jamol.git
+   ```
+2. Enter the folder:
+   ```bash
+   cd index.html-jamol
+   ```
+3. Open `index.html` in your browser, or start a local server:
+   ```bash
+   python -m http.server 8000
+   ```
+   Then visit `http://localhost:8000`.
+
+### 🌍 Deploy to GitHub Pages
+
+1. Go to **Settings → Pages** in your repository.
+2. Under **Source**, choose the `main` branch and the `/ (root)` folder.
+3. Click **Save** — your site will be live in a few minutes.
+
+### 🤝 Contributing
+
+Suggestions and improvements are welcome! Fork the repo, make your changes and open a Pull Request.
+
+### 👤 Author
+
+**Jamol Abduhalilov** — [@abduhalilovjamol7-afk](https://github.com/abduhalilovjamol7-afk)
+
+---
+
+<div align="center">
+
+⭐ Agar loyiha yoqsa, yulduzcha qo'yishni unutmang! / If you like this project, give it a star! ⭐
+</div>
